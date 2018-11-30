@@ -1,2 +1,61 @@
-this is the user guide
-this is another line
+
+------------------------- HELP -------------------------
+
+--> 1- If you type 1 and enter an ip address PenTest 2000 will take the ip
+    address up to the last dot. (Ex: 192.168.1.). Afterwards it will scan
+    for the last 256 ips and record the online hosts into the "icmp.dat"
+    file.
+
+--> 2- If you type 2 and enter a single port or a port range PenTest 2000
+    will start scanning your desired port(s) of the online hosts you found
+    from first operation (alive hosts of icmp.dat file). (Ports are from
+    1 to 65535)
+
+--> 3- If you type 3 and enter a single port or a port range or type all
+    PenTest 2000 will scan only the open ports in that range for the hosts
+    that are alive in the ports.dat file. (Ports are from 1 to 65535)
+
+--> 4- If you type 4 and PenTest 2000 will start OS Fingerprint scanning
+    for the hosts that are alive in the open_ports.dat file.
+
+--> 5- If you type 5 and enter a correct url (www.bing.com) or (bing.com)
+    the result will show you how many hops away that host is. This method
+    will not proceed if an ip is passed. However the one below will print
+    the result of the ip as well.
+
+..> 6- If you type 6 and enter a correct url (www.bing.com) or (bing.com)
+    the result will show you how many hops away that host is. However this
+    is different than the one above because this has a low chance of
+    getting stuck during the process. But the output is a bit more complex.
+    A note is added at the start and end of the output to help you judge
+    the result.
+
+--> 7- If you type 7 and select the custom url option or the 10 random
+    website option the program will start to scan those web servers.
+    The result will print all the protocols and open ports of that or those
+    web servers.
+
+--> 8- If you type 8 the program will check the hosts inside the icmp.dat
+    file and for the still online ones it will do an snmp scan (ports 161
+    and 162) and record and print the results.
+
+--> 9- If you type 9 you will have to specify the victim ip and
+    transportation protocols and also the port or port range the attack
+    will start. While the attack is happening tcpdump will monitor those
+    packet sent. However if the tcpdump does not reach the specific packet
+    count it will automatically stop after 60 seconds. This also means that
+    tcpdump monitoring will, at max, run for 60 seconds and then will end.
+    You can end the process with 'Ctrl + C' combination whenever you want
+
+--> 10- If you type 10 and enter a correct ip or ip range and specify
+    correct protocol(s) and specify a correct port or correct port
+    range then the program will start monitoring according to your
+    specifications. You can also choose if the ports and hosts will
+    be sources, destinations or hosts (both src and dst)
+
+--> 11- If you type 11 you will see 6 options to select from. These
+    options will help to print the files you want. If you enter a
+    correct value the corresponding file or files will be printed
+    on the terminal
+
+------------------------- HELP -------------------------
