@@ -23,7 +23,7 @@
     will not proceed if an ip is passed. However the one below will print
     the result of the ip as well.
 
-..> 6- If you type 6 and enter a correct url (www.bing.com) or (bing.com)
+--> 6- If you type 6 and enter a correct url (www.bing.com) or (bing.com)
     the result will show you how many hops away that host is. However this
     is different than the one above because this has a low chance of
     getting stuck during the process. But the output is a bit more complex.
