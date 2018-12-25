@@ -1,0 +1,10 @@
+Surname: Kafadar
+Name: Hakan
+Date of Birth: 13.03.1991
+Document No: A01U52283
+Gender: Male
+Nationality: Turkish
+Valid Until: 20.12.2023
+Mother's Name: Aylin
+Father's Name: Yusuf
+Issued By: Rep. of Tur. Ministry of Interior
